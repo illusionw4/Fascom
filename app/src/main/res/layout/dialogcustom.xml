@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/medpurp"
+        android:text="Choose Your Payment Mode"
+        android:textSize="20sp"
+        android:fontFamily="@font/sansb"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+      <Button
+          android:id="@+id/cod"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Cash(COD)"
+            android:gravity="center"
+          android:textColor="@color/white"
+          android:background="@drawable/buttonbg"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Pay Online"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonbg"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DEDEDE"
+        />
+
+    <Button
+        android:id="@+id/btDismissCustomDialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/sansb"
+        android:textColor="@color/black"
+        android:background="?selectableItemBackground"
+        android:text="Cancel"
+        />
+
+</LinearLayout>

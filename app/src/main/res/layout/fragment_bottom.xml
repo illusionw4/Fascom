@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BottomFragment">
+
+    <TextView
+        android:id="@+id/headi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Enter Pincode"
+        android:fontFamily="@font/robotob"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+
+        />
+
+
+    <EditText
+        android:id="@+id/postalcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headi"
+        android:layout_marginTop="14dp"
+        android:hint="Pincode"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/checkpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postalcode"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purple_500"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppinsb"
+        android:text="Check"
+        android:textColor="@color/white" />
+
+
+
+</RelativeLayout>

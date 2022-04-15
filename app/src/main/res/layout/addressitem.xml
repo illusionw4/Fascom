@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#6495ED"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/medpurp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cravus India"
+                android:layout_marginStart="4dp"
+                android:maxLength="18"
+                android:ellipsize="end"
+                android:ems="6"
+                android:singleLine="true"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsre"
+                android:textSize="18dp"
+                />
+                <TextView
+                    android:id="@+id/usercall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8931585674"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/poppinsre"
+                    android:textSize="14dp"
+                    />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/userflat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B-69"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/poppinsre"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:id="@+id/userstreet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Udaigiri"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/poppinsre"
+                    android:textSize="18dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/usercity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Noida, Uttar Pradesh"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/poppinsre"
+                    android:layout_marginStart="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/userzip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="201014"
+                    android:textSize="18dp"
+                    android:layout_marginStart="4dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinsre"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/removeitem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dustbin"
+                android:layout_gravity="center"
+                app:tint="@color/red" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

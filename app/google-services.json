@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984233971503",
+    "project_id": "dorus-2d869",
+    "storage_bucket": "dorus-2d869.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984233971503:android:08eff794d1f5e10d2c1bda",
+        "android_client_info": {
+          "package_name": "com.example.fascom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984233971503-g1e5a3gcdo5gfa6lroncrp8qvfj4anj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADSCwJ_tYon8fI88sGVEQO50_CqpCan5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984233971503-g1e5a3gcdo5gfa6lroncrp8qvfj4anj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

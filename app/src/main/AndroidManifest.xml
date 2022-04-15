@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fascom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fascom"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/fascom_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dorus">
+        <activity
+            android:name=".activities.Furniture"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Fashion"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Homeappliances"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Kitchen"
+            android:exported="false" />
+        <activity
+            android:name=".FastfoodBakery.Fastaddress"
+            android:exported="false" />
+        <activity
+            android:name=".FastfoodBakery.Fastcart"
+            android:exported="false" />
+        <activity
+            android:name=".Subscription.Eggsubs"
+            android:exported="false" />
+        <activity
+            android:name=".Subscription.currentsubsview"
+            android:exported="false" />
+        <activity
+            android:name=".Subscription.Subscriptionorders"
+            android:exported="false" />
+        <activity
+            android:name=".Subscription.Subscriptionpayment"
+            android:exported="false" />
+        <activity
+            android:name=".Subscription.Subaddress"
+            android:exported="false" />
+        <activity
+            android:name=".Subscription.Subplaced"
+            android:exported="false" />
+        <activity
+            android:name=".Subscription.Subscriptioncart"
+            android:exported="false" />
+        <activity
+            android:name=".Carts.Carts"
+            android:exported="false" />
+        <activity
+            android:name=".Subscription.Milksubs"
+            android:exported="false" />
+        <activity
+            android:name=".FAQs"
+            android:exported="false" />
+        <activity
+            android:name=".Comingsoontab"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Personalcare.Personalcare"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Bulbs.Lightning"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Breakfast.Breakfast"
+            android:exported="true" />
+        <activity
+            android:name=".currentorderdetail"
+            android:exported="true" />
+        <activity
+            android:name=".MyOrdersinside"
+            android:exported="true" />
+        <activity
+            android:name=".Searchbar"
+            android:exported="true" />
+        <activity
+            android:name=".Grocprod"
+            android:exported="true" />
+        <activity
+            android:name=".Nointernet"
+            android:exported="true" />
+        <activity
+            android:name=".Myorders"
+            android:exported="true" />
+        <activity
+            android:name=".Placedorder"
+            android:exported="true" />
+        <activity
+            android:name=".Forgotpass"
+            android:exported="true" />
+        <activity
+            android:name=".FastFood.Tandoori.Tandoori"
+            android:exported="true" />
+        <activity
+            android:name=".FastFood.South.South"
+            android:exported="true" />
+        <activity
+            android:name=".FastFood.Shakes.Shakes"
+            android:exported="true" />
+        <activity
+            android:name=".FastFood.Pizza.pizza"
+            android:exported="true" />
+        <activity
+            android:name=".FastFood.Deserts.Deserts"
+            android:exported="true" />
+        <activity
+            android:name=".FastFood.Chinese.Chinese"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.spices.Spices"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Salts.Salts"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Edibles.Edibles"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Stationary.Stationery"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Sauces.Sauces"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.RiceStaples.Ricestaples"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Noodles.Noodles"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Namkeen.Namkeen"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Household.Household"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Healthdrinks.Drinks"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Biscuits.Biscuits"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Bevarages.Bevarages"
+            android:exported="true" />
+        <activity
+            android:name=".GroceryTab.Dairy.Dairy"
+            android:exported="true" />
+        <activity
+            android:name=".Payment"
+            android:exported="true" />
+        <activity
+            android:name=".Addaddress"
+            android:exported="true" />
+        <activity
+            android:name=".Address"
+            android:exported="true" />
+        <activity
+            android:name=".AddToCartt"
+            android:exported="true" />
+        <activity
+            android:name=".Addtocart"
+            android:exported="true" />
+        <activity android:name=".Productactivity" />
+        <activity android:name=".Profiletab" />
+        <activity android:name=".Search" />
+        <activity android:name=".Explore" />
+        <activity android:name=".Healthtab" />
+        <activity android:name=".Subscription.Substab" />
+        <activity android:name=".Vegetab" />
+        <activity android:name=".Fashion.Fashiontab" />
+        <activity android:name=".FastfoodBakery.Fastfoodtab" />
+        <activity android:name=".Grocerytab" />
+        <activity android:name=".DirSignup" />
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Login" />
+        <activity android:name=".Signup" />
+        <activity
+            android:name=".Starter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

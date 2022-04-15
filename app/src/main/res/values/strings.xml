@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fascom</string>
+    <string name="uskip"><u>Skip</u></string>
+    <string name="login">Already a member? <font fgcolor="#FF6200EE"><u>Login</u></font></string>
+    <string name="signup">Don\'t have an account? <font fgcolor="#FFFFFF"><u>SignUp</u></font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_register">Register</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="forgot_des">Enter the Email ID associated with your account</string>
+    <string name="emptylist">Tap on the heart button to start saving your items</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_getstarted">Getstarted</string>
+
+
+</resources>

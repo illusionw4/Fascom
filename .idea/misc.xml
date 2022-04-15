@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/drawable/buttonbg.xml" value="0.1835" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/drawable/logsignupbutt.xml" value="0.1835" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/drawable/splashscreenbg.xml" value="0.1835" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_addtocart.xml" value="0.1453804347826087" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_explore.xml" value="0.259375" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_healthtab.xml" value="0.259375" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_home.xml" value="0.1453804347826087" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_homeappliances.xml" value="0.259375" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_household.xml" value="0.11614583333333334" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_kitchen.xml" value="0.259375" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_productactivity.xml" value="0.1453804347826087" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_profiletab.xml" value="0.259375" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/activity_starter.xml" value="0.1453804347826087" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/cartdialog.xml" value="0.259375" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/defappbar.xml" value="0.259375" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/fastfoodact.xml" value="0.259375" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/fastfooditem.xml" value="0.259375" />
+        <entry key="..\:/Android Projects/Fascom/app/src/main/res/layout/itemintabs.xml" value="0.259375" />
+        <entry key="..\:/Dorus/app/src/main/res/drawable/dorusicon_foreground.xml" value="0.1835" />
+        <entry key="..\:/Dorus/app/src/main/res/drawable/icondes.xml" value="0.1835" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_addtocart.xml" value="0.12613981762917933" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_bakerytab.xml" value="0.12613981762917933" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_explore.xml" value="0.12613981762917933" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_fastcart.xml" value="0.12613981762917933" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_grocprod.xml" value="0.259375" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_home.xml" value="0.2151268115942029" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_payment.xml" value="0.2545289855072464" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_productactivity.xml" value="0.259375" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_profiletab.xml" value="0.12613981762917933" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/activity_subscriptioncart.xml" value="0.12613981762917933" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/appbar.xml" value="0.259375" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/bakeryappbar.xml" value="0.2545289855072464" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/cartdialog.xml" value="0.2545289855072464" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/defappbar.xml" value="0.12613981762917933" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/dialogcustom.xml" value="0.2545289855072464" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/fastfoodact.xml" value="0.259375" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/fastfooditem.xml" value="0.20425724637681159" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/fragment_cakes.xml" value="0.20425724637681159" />
+        <entry key="..\:/Dorus/app/src/main/res/layout/itemlistdotd.xml" value="0.259375" />
+        <entry key="..\:/Dorus/app/src/main/res/mipmap-anydpi-v26/dorusicon_round.xml" value="0.1835" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/activity_home.xml" value="0.259375" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/activity_kitchen.xml" value="0.264" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/activity_placedorder.xml" value="0.11614583333333334" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/activity_productactivity.xml" value="0.11614583333333334" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/activity_subscriptioncart.xml" value="0.259375" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/activity_subscriptionpayment.xml" value="0.259375" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/appbar.xml" value="0.259375" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/fastfooditem.xml" value="0.11614583333333334" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/itemlistdotd.xml" value="0.259375" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/newpass.xml" value="0.11614583333333334" />
+        <entry key="..\:/Fascom/app/src/main/res/layout/splashscreen.xml" value="0.11614583333333334" />
+        <entry key="..\:/Fascom/app/src/main/res/menu/bottom_menu.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

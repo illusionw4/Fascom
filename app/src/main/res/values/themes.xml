@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Dorus" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pinkti</item>
+        <item name="colorPrimaryVariant">@color/pinkti</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:colorPrimaryDark">@color/pinkti</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorBackgroundFloating">@color/white</item>
+    </style>
+    <style name="Tabtext" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/poppinsb</item>
+    </style>
+    <style name="subtabs" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/sansbi</item>
+    </style>
+
+    <style name="roundedimageview" parent="">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopLeft">30dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">30dp</item>
+        <item name="color">@color/white</item>
+    </style>
+    <style name="Divider">
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="backgroundTint">@color/coral</item>
+    </style>
+
+    <style name="Divider.Horizontal" parent="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">3dp</item> // You can change thickness here.
+
+    </style>
+    <style name="Divide.Horizontal" parent="Divider">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">3dp</item> // You can change thickness here.
+
+    </style>
+    <style name="Theme.App" parent="Theme.MaterialComponents">
+        ...
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.Colored</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorOnPrimary">@color/pinkti</item>
+    </style>
+    <style name="statusbar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/green</item>
+    </style>
+
+    <style name="CustomActionBarTheme"
+        parent="@android:style/Theme.Holo">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+</resources>
